@@ -1,0 +1,2 @@
+# MTF-EMA-ALMA-Strategy-with-RSI-Supertrend-and-Advanced-Volume-Delta-Divergence-Visualization
+This Pine Script strategy integrates Multi-Timeframe EMA &amp; ALMA with RSI, Supertrend signals, and advanced volume delta divergence detection. Tested on XAAUSD, SPY, and NQ! across various timeframes, it achieved win rates up to 96.7% and a Sharpe ratio of 22.1, making it a powerful tool for technical analysis and trading.
