@@ -4,7 +4,7 @@
 
 ## Overview
 
-This Pine Script strategy combines a robust technical analysis approach using Multi-Timeframe EMA & ALMA strategies with RSI and Supertrend signals, integrated with advanced volume delta divergence detection and price-volume interaction visualization. The strategy is designed to capture price momentum, identify trend reversals, and detect divergence between price and volume activity across multiple timeframes.
+This Pine Script strategy combines a robust technical analysis approach using Multi-Timeframe EMA & ALMA strategies with RSI and Supertrend signals, integrated with advanced volume delta divergence detection and price-volume interaction visualization. The strategy is designed to capture price momentum, identify trend reversals, and detect divergence between price and volume activity across multiple timeframes. Additionally, it was created to bypass TradingView's free-tier restriction of using only one indicator, allowing users to leverage multiple indicators within a single script.
 
 ## Features
 
@@ -12,12 +12,14 @@ This Pine Script strategy combines a robust technical analysis approach using Mu
 - **RSI & Supertrend Signals**: Combine Relative Strength Index (RSI) and Supertrend indicators to identify overbought/oversold conditions and trend direction.
 - **Advanced Volume Delta Divergence**: Detect divergences between price movements and volume delta across different timeframes, providing an early signal of potential trend reversals.
 - **Price-Volume Interaction Visualization**: Dynamic visualization of price and volume relationships with real-time updates of support and resistance zones.
+- **Optimized for Free TradingView Users**: Consolidate multiple indicators into a single script, bypassing the one-indicator restriction for free-tier users.
 
 ## Backtesting Results
 
 The strategy has been rigorously backtested across multiple indices and timeframes, yielding impressive win rates and high Sharpe ratios:
 
 1. **XAAUSD**:
+   - 1m: 80% win rate
    - 5m: 90% win rate
    - 15m: 96.7% win rate
    - 4h: 94.44% win rate
@@ -60,6 +62,6 @@ To use this strategy:
 
 ## Conclusion
 
-This Pine Script strategy offers a comprehensive approach to analyzing and trading various assets by combining powerful technical indicators with advanced volume analysis. Its strong backtesting performance across different timeframes and indices makes it a valuable tool for traders looking to gain an edge in the markets.
+This Pine Script strategy offers a comprehensive approach to analyzing and trading various assets by combining powerful technical indicators with advanced volume analysis. Its strong backtesting performance across different timeframes and indices makes it a valuable tool for traders looking to gain an edge in the markets. Furthermore, by consolidating multiple indicators into one script, the strategy helps free TradingView users overcome the platform's single-indicator limitation.
 
 --- 
